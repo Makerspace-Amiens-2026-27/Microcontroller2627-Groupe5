@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ajague AGBETIAFA
+title: ajaz AGBETIAFA
 parent: Journal de bord
 has_children: true
 ---
