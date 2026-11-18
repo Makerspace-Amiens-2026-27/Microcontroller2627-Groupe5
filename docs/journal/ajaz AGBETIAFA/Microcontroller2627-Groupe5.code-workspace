@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "test_blink",
+			"path": "../../../../../PlatformIO/Projects/test_blink"
+		}
+	],
+	"settings": {}
+}
