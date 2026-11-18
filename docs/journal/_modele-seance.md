@@ -18,8 +18,13 @@ Nous avons téléchargé et installé **VS Code** et **PlatformIO**, puis vérif
 
 Nous avons essayé de lire les données du port série avec **PlatformIO** et **Teleplot**. Les informations sont bien reçues, mais la courbe ne s'affiche pas.
 
+## Module bouton
+
+Nous avons câblé et testé le **module bouton** avec succès.
+
 ## Bilan et suite
 
 - ✅ Environnement VS Code + PlatformIO installé
 - ✅ Toolchain validée (clignotement de la LED de l'ESP32-S3)
+- ✅ Module bouton câblé et testé avec succès
 - ❌ Affichage des courbes Teleplot : données reçues mais pas de tracé, à débugger
