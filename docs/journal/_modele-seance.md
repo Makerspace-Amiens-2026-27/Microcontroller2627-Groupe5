@@ -1,29 +1,25 @@
 ---
 layout: default
-title: "AAAA-MM-JJ : sujet de la séance"
+title: "2026-11-18 : début du projet microcontrôleur"
 parent: Prénom Nom
 grand_parent: Journal de bord
 ---
 
-<!--
-Modèle de séance, ce fichier n'apparaît pas sur le site (son nom commence par "_").
-Copiez-le dans votre dossier, renommez la copie avec la date (ex. 2026-09-23.md), puis :
-- title : la date et le sujet de la séance ;
-- parent : EXACTEMENT le titre de votre page étudiant (docs/journal/votre-dossier/index.md).
--->
+# 2026-11-18 : début du projet microcontrôleur
 
-# AAAA-MM-JJ : sujet de la séance
+**Séance :** planifiée
+**Durée :** 1 h 30
 
-**Séance :** planifiée / hors créneau · **Durée :** 2 h
+## Mise en place de l'environnement
 
-## Fait
+Nous avons téléchargé et installé **VS Code** et **PlatformIO**, puis vérifié la toolchain en faisant clignoter la LED de l'**ESP32-S3**. Le test a fonctionné : l'environnement de développement est donc opérationnel.
 
-Ce que j'ai réalisé pendant la séance.
+## Lecture des données avec Teleplot
 
-## Pourquoi
+Nous avons essayé de lire les données du port série avec **PlatformIO** et **Teleplot**. Les informations sont bien reçues, mais la courbe ne s'affiche pas.
 
-Les décisions prises et leurs raisons (mesures, essais, échanges avec l'équipe).
+## Bilan et suite
 
-## Reste à faire
-
-Les prochaines actions, et ce qui bloque éventuellement.
+- ✅ Environnement VS Code + PlatformIO installé
+- ✅ Toolchain validée (clignotement de la LED de l'ESP32-S3)
+- ❌ Affichage des courbes Teleplot : données reçues mais pas de tracé, à débugger

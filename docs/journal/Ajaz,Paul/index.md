@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ajaz AGBETIAFA
+title: Ajaz,Paul
 parent: Journal de bord
 has_children: true
 ---
